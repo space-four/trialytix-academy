@@ -91,8 +91,6 @@ ul.pagination {
   margin-bottom: $padding-16;
 
   img {
-    height: 1.5em;
-    width: 1.5em;
     margin-inline-end: $padding-8;
   }
 }
@@ -281,8 +279,6 @@ body[dir="rtl"] .book-menu {
 // Layouts => partials => docs => inject => toc-after
 
 .SupportRequestNote {
-  border: 1px solid #6d6d6d;
-  border-radius: 5px;
   padding: 20px;
   margin-top: 50px;
 }
@@ -294,6 +290,15 @@ body[dir="rtl"] .book-menu {
 .SupportRequestNote p {
   margin-bottom: 40px;
   line-height: 18px;
+}
+
+// CTA Note at end of Page
+
+.Partial__CTA-Section {
+  margin-top: 50px;
+  padding: 25px;
+
+  background-color: var(--body-background__tint);
 }
 
 // Responsive styles
