@@ -11,7 +11,7 @@ $font-size-16: 1rem !default;
 
 $border-radius: $padding-4 !default;
 
-$body-font-weight: normal !default;
+$body-font-weight: 300 !default;
 
 $body-min-width: 20rem !default;
 $container-max-width: 80rem !default;
@@ -28,14 +28,22 @@ $hint-colors: (
   danger: #f66,
 ) !default;
 
+//Brand Colors
+
+:root {
+  --primary-color: #232c58;
+  --primary-color__tint: #5c73e6;
+  --primary-color__shade: ;
+}
+
 // Themes
 @mixin theme-light {
   --gray-100: #f8f9fa;
   --gray-200: #e9ecef;
   --gray-500: #adb5bd;
 
-  --color-link: #0055bb;
-  --color-visited-link: #8440f1;
+  --color-link: var(--primary-color__tint);
+  --color-visited-link: var(--primary-color__tint);
 
   --body-background: white;
   --body-font-color: black;
