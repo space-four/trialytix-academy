@@ -29,8 +29,21 @@
 - `_default.scss` => Handle basics brand/project-specific styles
 - `_main.scss` => Maintain styles of general application
 - `_markdown.scss` => Maintain styles of markdown-elemens on the pages (content-area)
+- `utils.scss` => General Utility Classes
   - ~ aka "the posts" are styled here
 
+### Layout File Structure
+
+- As with the SCSS Files, it is strongly recommended to copy them to the general project directory before manipulating
+
+- `/default` => `baseof.html` => Entire Page Layout
+- `partials` => Here smaller pieces of Content are maintained, e.g. the brand display to the upper left or what comes after a table of contents
+
+### config.toml
+
+- `config.toml` maintains general configuration input for application
+  - Path to Logo File
+  - dark/light theme of website
 
 ## Hugo Basics
 
@@ -40,3 +53,8 @@
 - `hugo new {myfile.md}` will create a md file in the content directoy
 - `hugo new docs/{hierarchy}/{myfile.md}` will create directory `hierarchy` in `docs` and create {myfile.md} there
   - In thise case you need to `hugo new doc/{hierarchy.md}/_index.md` 
+
+### Hugo Server
+
+- Start a hugo WebServer with `hugo server`
+- To also view content that is flagged `draft` invoke `hugo server -D`
