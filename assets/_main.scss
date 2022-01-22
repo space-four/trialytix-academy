@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   font-weight: $body-font-weight;
-  color: var(--primary-color);
+  color: var(--body-font-color);
 }
 
 a {
@@ -275,6 +275,25 @@ body[dir="rtl"] .book-menu {
   ul {
     padding-inline-start: 1.5em;
   }
+}
+
+// SupportRequestNote display after table of contents on page.
+// Layouts => partials => docs => inject => toc-after
+
+.SupportRequestNote {
+  border: 1px solid #6d6d6d;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.SupportRequestNote h3 {
+  color: var(--primary-color)
+}
+
+.SupportRequestNote p {
+  margin-bottom: 40px;
+  line-height: 18px;
 }
 
 // Responsive styles

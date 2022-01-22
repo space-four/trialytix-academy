@@ -28,12 +28,26 @@ $hint-colors: (
   danger: #f66,
 ) !default;
 
-//Brand Colors
+//Brand-Specific Stylings
 
 :root {
-  --primary-color: #232c58;
-  --primary-color__tint: #5c73e6;
-  --primary-color__shade: ;
+  --primary-color: #08D6A1;
+
+  --secondary-color: #5c73e6;
+  --secondary-color__tint: #5c73e6;
+  --secondary-color__shade: ;
+}
+
+.box-shadow {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.button {
+  padding: 10px 35px 10px 35px;
+  background-color: var(--primary-color);
+  color: var(--body-font-color);
+  border-radius: 5px;
+  font-weight: 500;
 }
 
 // Themes
@@ -61,10 +75,10 @@ $hint-colors: (
   --gray-500: rgba(255, 255, 255, 0.5);
 
   --color-link: #84b2ff;
-  --color-visited-link: #b88dff;
+  --color-visited-link: #84b2ff;
 
-  --body-background: #121212;
-  --body-font-color: #e0e0e0;
+  --body-background: #171923;
+  --body-font-color: #e7e8f2;
 
   --icon-filter: brightness(0) invert(1);
 
