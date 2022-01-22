@@ -32,6 +32,8 @@ $hint-colors: (
 
 :root {
   --primary-color: #08D6A1;
+  --primary-color__tint: #09dda8;
+  --primary-color__shade: #0ac294;
 
   --secondary-color: #5c73e6;
   --secondary-color__tint: #5c73e6;
@@ -67,7 +69,9 @@ $hint-colors: (
   --color-visited-link: var(--primary-color__tint);
 
   --body-background: white;
-  --body-font-color: black;
+  --body-background__shade: #f1f1f1; 
+
+  --body-font-color: #202331;
 
   --icon-filter: none;
 
@@ -81,11 +85,13 @@ $hint-colors: (
   --gray-200: rgba(255, 255, 255, 0.2);
   --gray-500: rgba(255, 255, 255, 0.5);
 
-  --color-link: #84b2ff;
-  --color-visited-link: #84b2ff;
+  --color-link: var(--primary-color);
+  --color-visited-link: var(--primary-color__shade);
 
   --body-background: #171923;
   --body-background__tint: #202331;
+  --body-background__shade: #12141b;
+
   --body-font-color: #e7e8f2;
 
   --icon-filter: brightness(0) invert(1);

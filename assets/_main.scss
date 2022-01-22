@@ -96,13 +96,14 @@ ul.pagination {
 }
 
 .book-menu {
+  //Entire right Sidebar
   flex: 0 0 $menu-width;
-  font-size: $font-size-14;
+  font-size: $font-size-14;;
 
   .book-menu-content {
     width: $menu-width;
     padding: $padding-16;
-    background: var(--body-background);
+    background: var(--body-background__shade);
 
     @include fixed;
   }
@@ -163,7 +164,7 @@ body[dir="rtl"] .book-menu {
 .book-page {
   min-width: $body-min-width;
   flex-grow: 1;
-  padding: $padding-16;
+  padding: 3rem 1rem 2rem 2rem;
 }
 
 .book-post {
@@ -172,7 +173,7 @@ body[dir="rtl"] .book-menu {
 
 .book-header {
   display: none;
-  margin-bottom: $padding-16;
+  margin-bottom: 3rem;
 
   label {
     line-height: 0;
