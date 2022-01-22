@@ -4,5 +4,5 @@ title = 'Academy'
 theme = 'Hugo-Book'
 
 [params]
-    BookTheme = 'light'
+    BookTheme = 'dark'
     BookLogo = 'logo.png'
