@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-Thin.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-Thin.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-ExtraLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-ExtraLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-Light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-SemiBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-SemiBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Encoded Sans Expanded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('/static/fonts/encoded_sans_expanded/AnyConv.com__EncodeSansExpanded-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/encoded_sans_expanded/EncodeSansExpanded-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  font-family: 'Encoded Sans Expanded', sans-serif;
+}
+
+code {
+  font-family: 'Encoded Sans', monospace;
+}
