@@ -1,6 +1,6 @@
 ---
 title: "Gettingstarted"
-weight: 1
+weight: 20
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
