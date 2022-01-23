@@ -2,9 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Academy</title>
-    <link>uildDrafts/docs/</link>
+    <link>//academy.trialytix.io/docs/</link>
     <description>Recent content in Docs on Academy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language><atom:link href="uildDrafts/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language>
+    <lastBuildDate>Sat, 22 Jan 2022 12:29:07 +0100</lastBuildDate><atom:link href="//academy.trialytix.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Willkommen</title>
+      <link>//academy.trialytix.io/docs/welcome/</link>
+      <pubDate>Sat, 22 Jan 2022 12:20:27 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/welcome/</guid>
+      <description>Herzlich Willkommen, yo!</description>
+    </item>
+    
   </channel>
 </rss>

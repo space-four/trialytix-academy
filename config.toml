@@ -1,4 +1,4 @@
-baseURL = 'http://academy.trialytix.io/'
+baseURL = '//academy.trialytix.io/'
 languageCode = 'de-de'
 title = 'Academy'
 theme = 'Hugo-Book'

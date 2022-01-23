@@ -59,3 +59,7 @@
 - Start a hugo WebServer with `hugo server`
 - To also view content that is flagged `draft` invoke `hugo server -D`
 - To render files for `public` including drafts go `hugo --buildDrafts`
+
+### Hugo Configuration
+
+- It is best practice to remove the protocol from the base url in config.toml `baseURL = '//academy.trialytix.io/'`

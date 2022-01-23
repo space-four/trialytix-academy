@@ -2,9 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academy</title>
-    <link>uildDrafts/</link>
+    <link>//academy.trialytix.io/</link>
     <description>Recent content on Academy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language><atom:link href="uildDrafts/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language>
+    <lastBuildDate>Sat, 22 Jan 2022 12:29:07 +0100</lastBuildDate><atom:link href="//academy.trialytix.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Willkommen</title>
+      <link>//academy.trialytix.io/docs/welcome/</link>
+      <pubDate>Sat, 22 Jan 2022 12:20:27 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/welcome/</guid>
+      <description>Herzlich Willkommen, yo!</description>
+    </item>
+    
+    <item>
+      <title>Aboutprojects</title>
+      <link>//academy.trialytix.io/docs/projectlifecycle/aboutprojects/</link>
+      <pubDate>Sat, 22 Jan 2022 12:29:07 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/projectlifecycle/aboutprojects/</guid>
+      <description>Lorem Ipsum#Lorem to the Ipsum#Much wow
+My favorite search engine is Duck Duck Go.
+Very great Subheading#Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</description>
+    </item>
+    
+    <item>
+      <title>Createproject</title>
+      <link>//academy.trialytix.io/docs/projectlifecycle/createproject/</link>
+      <pubDate>Sat, 22 Jan 2022 12:28:14 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/projectlifecycle/createproject/</guid>
+      <description>Lorem Ipsum#Lorem to the Ipsum#Much wow</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>//academy.trialytix.io/docs/projectlifecycle/intro/</link>
+      <pubDate>Sat, 22 Jan 2022 12:27:56 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/projectlifecycle/intro/</guid>
+      <description>Lorem Ipsum#Lorem to the Ipsum#Much wow</description>
+    </item>
+    
+    <item>
+      <title>Login</title>
+      <link>//academy.trialytix.io/docs/gettingstarted/login/</link>
+      <pubDate>Sat, 22 Jan 2022 12:27:40 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/gettingstarted/login/</guid>
+      <description>Lorem Ipsum#Lorem to the Ipsum#Much wow</description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>//academy.trialytix.io/docs/gettingstarted/registration/</link>
+      <pubDate>Sat, 22 Jan 2022 12:27:26 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/gettingstarted/registration/</guid>
+      <description>Lorem Ipsum#Lorem to the Ipsum#Much wow</description>
+    </item>
+    
+    <item>
+      <title>First Steps</title>
+      <link>//academy.trialytix.io/docs/gettingstarted/first-steps/</link>
+      <pubDate>Sat, 22 Jan 2022 12:27:10 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/gettingstarted/first-steps/</guid>
+      <description>Lorem Ipsum#Lorem to the Ipsum#Much wow</description>
+    </item>
+    
   </channel>
 </rss>
