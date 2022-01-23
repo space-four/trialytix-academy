@@ -372,7 +372,7 @@ body[dir="rtl"] .book-menu {
     }
   }
 
-  // for RTL support
+  // for RTL support TestTest
   body[dir="rtl"] #menu-control:checked ~ main {
     .book-menu .book-menu-content {
       transform: translateX(-$menu-width);
