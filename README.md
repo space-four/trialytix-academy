@@ -58,3 +58,4 @@
 
 - Start a hugo WebServer with `hugo server`
 - To also view content that is flagged `draft` invoke `hugo server -D`
+- To render files for `public` including drafts go `hugo --buildDrafts`
