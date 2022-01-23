@@ -285,7 +285,9 @@ body[dir="rtl"] .book-menu {
 }
 
 .SupportRequestNote h3 {
-  color: var(--primary-color)
+  color: var(--primary-color);
+  font-family: 'Roboto';
+  font-weight: 500;
 }
 
 .SupportRequestNote p {
