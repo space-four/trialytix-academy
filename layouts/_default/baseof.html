@@ -15,13 +15,15 @@
     </aside>
 
     <div class="book-page">
-      <header class="book-header">
+      <header class="book-header box-shadow">
         {{ template "header" . }} <!-- Mobile layout header -->
       </header>
 
-      {{ partial "docs/inject/content-before" . }}
-      {{ template "main" . }} <!-- Page Content -->
-      {{ partial "docs/inject/content-after" . }}
+      <main class="page-content"> <!-- Wrapper to maintain padding of page content only -->
+        {{ partial "docs/inject/content-before" . }}
+        {{ template "main" . }} <!-- Page Content -->
+        {{ partial "docs/inject/content-after" . }}
+      </main>  
 
       <footer class="book-footer">
         {{ template "footer" . }} <!-- Footer under page content -->

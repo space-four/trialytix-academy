@@ -164,7 +164,7 @@ body[dir="rtl"] .book-menu {
 .book-page {
   min-width: $body-min-width;
   flex-grow: 1;
-  padding: 3rem 1rem 2rem 2rem;
+  padding: 3rem;
 }
 
 .book-post {
@@ -319,6 +319,23 @@ body[dir="rtl"] .book-menu {
   #menu-control,
   #toc-control {
     display: inline;
+  }
+
+  .book-page {
+    padding: 0;
+  }
+
+  .page-content {
+    // see baseof.html => just a wrapper element around page content
+    padding: 1rem;
+  }
+
+  .book-header {
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--body-background__shade);
+    z-index: 9999;
   }
 
   .book-menu {
