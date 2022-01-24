@@ -5,6 +5,18 @@
     <link>//academy.trialytix.io/docs/</link>
     <description>Recent content in Docs on Academy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language><atom:link href="//academy.trialytix.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-de</language>
+    <lastBuildDate>Sat, 22 Jan 2022 12:20:27 +0100</lastBuildDate><atom:link href="//academy.trialytix.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Willkommen</title>
+      <link>//academy.trialytix.io/docs/welcome/</link>
+      <pubDate>Sat, 22 Jan 2022 12:20:27 +0100</pubDate>
+      
+      <guid>//academy.trialytix.io/docs/welcome/</guid>
+      <description># Herzlich Willkommen,  Sie befinden sich in der Trialytix Academy.
+Auf den folgenden Seiten erfahren Sie:
+ Welche Kernfunktionen bietet Trialytix? Für welche Aufgaben können Sie Trialytix einsetzen? Wo finden Sie diese Funktionalitäten und wie sind sie zu verwenden? Sonstige, wichtige und interessante Hinweise rund um Trialytix.  Wir freuen uns, wenn Sie mit Trialytix Ihre Aufgaben lösen können und Ihnen dieses Wiki dabei hilft. Sollten Sie an irgend einer Stelle nicht weiter kommen oder weitere Fragen oder auch gerne Anregungen haben, so zögern Sie nicht: Unser Team ist stets für Sie bereit und hilft gerne weiter.</description>
+    </item>
+    
   </channel>
 </rss>
