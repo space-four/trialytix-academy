@@ -1,11 +1,11 @@
 ---
 title: "Willkommen"
 date: 2022-01-22T12:20:27+01:00
-draft: true
+draft: false
 weight: 10
 ---
 
-Herzlich Willkommen,
+# Herzlich Willkommen,
 
 Sie befinden sich in der _Trialytix Academy_.
 
@@ -18,4 +18,3 @@ Auf den folgenden Seiten erfahren Sie:
 
 Wir freuen uns, wenn Sie mit Trialytix Ihre Aufgaben lösen können und Ihnen dieses Wiki dabei hilft.
 Sollten Sie _an irgend einer Stelle_ nicht weiter kommen oder weitere Fragen oder auch gerne Anregungen haben, so zögern Sie nicht: Unser Team ist stets für Sie bereit und hilft gerne weiter.
-
